@@ -1,0 +1,47 @@
+#count{
+    font-size: 25rem;  
+    display: block; 
+    text-align: center;
+}
+
+#all-btn{
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    text-align: center;
+}
+
+.btn-style{
+    font-size: 2rem;
+    color: white;
+    background-color: rgba(58, 58, 134, 0.712);
+    padding: 2rem;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.btn-style:hover{
+    background-color: rgb(58, 58, 134);
+}
+
+@media screen and (max-width: 600px){
+    #count{
+        font-size: 20rem;  
+        display: block; 
+        text-align: center;
+    }
+    #all-btn{
+        display: flex;
+        justify-content: center;
+        gap: 1.5rem;
+        text-align: center;
+    }
+    .btn-style{
+        font-size: 1rem;
+        color: white;
+        background-color: rgba(58, 58, 134, 0.712);
+        padding: 1.3rem;
+        border-radius: 0.5rem;
+        cursor: pointer;
+    }
+}
